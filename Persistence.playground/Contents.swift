@@ -1,5 +1,14 @@
 /*
-It took me some time to get data persistence with Codable in Swift 4 to work. Internet resources mostly only showed what has changed in Swift 4, missing a complete guide how to persist data. Maybe I looked in the wrong places. After getting it to work, I decided to put together a simple example as a future reference for myself, but also for others who are new to this. In the example, I'm storing an array which contains objects of a custom type (Album). If all properties of a custom type conform to Codable, you can simply declare that custom type Codable itself. But the part that I struggled with was the actual encoding and decoding, reading and writing of the data.
+It took me some time to get data persistence with Codable in Swift 4 to work.
+ Internet resources mostly only showed what has changed in Swift 4, missing a
+ complete guide how to persist data. Maybe I looked in the wrong places.
+ After getting it to work, I decided to put together a simple example as a
+ future reference for myself, but also for others who are new to this.
+ In the example, I'm storing an array which contains objects of a custom
+ type (Album). If all properties of a custom type conform to Codable, you can
+ simply declare that custom type Codable itself.
+ But the part that I struggled with was the actual encoding and decoding,
+ reading and writing of the data.
 */
 
 import UIKit
